@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Finds latest Office 2011 update, downloads the disk image and extracts the pkg. This recipe is based on com.github.autopkg.munki.Office2011Updates and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.hhi.munki.Office2011Updates</string>
+	<string>com.github.hhi.wycomco.Office2011Updates</string>
 	<key>Input</key>
 	<dict>
 		<key>CULTURE_CODE</key>

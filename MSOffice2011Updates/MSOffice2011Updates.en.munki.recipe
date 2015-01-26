@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Finds latest Office 2011 update, downloads the disk image and extracts the pkg. This recipe is based on com.github.autopkg.munki.Office2011Updates and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.Office2011Updates</string>
+	<string>com.github.hhi.munki.Office2011Updates</string>
 	<key>Input</key>
 	<dict>
 		<key>CULTURE_CODE</key>
@@ -13,7 +13,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/microsoft/office2011en</string>
 		<key>NAME</key>
-		<string>upd_office2011de</string>
+		<string>upd_office2011en</string>
 		<key>VERSION</key>
 		<string>latest</string>
 		<key>pkginfo</key>
@@ -58,11 +58,11 @@
 			<string>Microsoft</string>
 			<key>requires</key>
 			<array>
-				<string>upd_office2011de-14.1.0</string>
+				<string>upd_office2011en-14.1.0</string>
 			</array>
 			<key>update_for</key>
 			<array>
-				<string>app_office2011de</string>
+				<string>app_office2011en</string>
 			</array>
 		</dict>
 	</dict>
